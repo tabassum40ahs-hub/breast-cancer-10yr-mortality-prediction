@@ -1,8 +1,8 @@
-\# Breast Cancer 10-Year Mortality Prediction
+# Breast Cancer 10-Year Mortality Prediction
 
 
 
-\## 📌 Project Overview
+# 📌 Project Overview
 
 
 
@@ -18,7 +18,7 @@ The objective is to build an interpretable machine learning model that can suppo
 
 
 
-\## 🎯 Problem Statement
+# 🎯 Problem Statement
 
 
 
@@ -40,7 +40,7 @@ This is framed as a binary classification problem:
 
 
 
-\## 📊 Dataset
+# 📊 Dataset
 
 
 
@@ -58,7 +58,7 @@ Rows with missing survival time or vital status were removed instead of imputed 
 
 
 
-\## 🎯 Target Variable
+# 🎯 Target Variable
 
 
 
@@ -78,7 +78,7 @@ Created using:
 
 
 
-\## 🧹 Data Preprocessing
+# 🧹 Data Preprocessing
 
 
 
@@ -100,7 +100,7 @@ Created using:
 
 
 
-\## 📈 Exploratory Data Analysis
+# 📈 Exploratory Data Analysis
 
 
 
@@ -124,7 +124,7 @@ Key insights:
 
 
 
-\## 🤖 Models Evaluated
+# 🤖 Models Evaluated
 
 
 
@@ -140,7 +140,7 @@ Key insights:
 
 
 
-\## 🏆 Final Model Selection
+# 🏆 Final Model Selection
 
 
 
@@ -166,7 +166,7 @@ Accuracy was NOT used as the primary decision metric.
 
 
 
-\## 📊 Model Performance
+# 📊 Model Performance
 
 
 
@@ -184,7 +184,7 @@ Accuracy was NOT used as the primary decision metric.
 
 
 
-\## ⏳ Survival Analysis
+# ⏳ Survival Analysis
 
 
 
@@ -200,7 +200,7 @@ This complements the machine learning classification by providing time-based sur
 
 
 
-\## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 
 
@@ -224,7 +224,7 @@ This complements the machine learning classification by providing time-based sur
 
 
 
-\## 🚀 Future Improvements
+# 🚀 Future Improvements
 
 
 
@@ -242,7 +242,7 @@ This complements the machine learning classification by providing time-based sur
 
 
 
-\## 👩‍💻 Author
+# 👩‍💻 Author
 
 
 
