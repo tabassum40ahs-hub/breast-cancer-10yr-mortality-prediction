@@ -102,27 +102,30 @@ col1, col2 = st.columns(2)
 
 # -------- LEFT --------
 
+col1, col2 = st.columns(2)
+
+# -------- LEFT -------- #
 with col1:
-age = st.number_input("Age at Diagnosis", 20, 100, 50)
-surgery = st.selectbox("Type of Breast Surgery", ["MASTECTOMY", "BREAST CONSERVING"])
-cancer_type = st.selectbox("Cancer Type Detailed",
-["Invasive Ductal Carcinoma",
-"Invasive Lobular Carcinoma"])
-cellularity = st.selectbox("Cellularity", ["High", "Moderate", "Low"])
-chemo = st.selectbox("Chemotherapy", ["YES", "NO"])
-er_status = st.selectbox("ER status measured by IHC", ["Positive", "Negative"])
-pr_status = st.selectbox("PR Status", ["Positive", "Negative"])
+    age = st.number_input("Age at Diagnosis", 20, 100, 50)
+    surgery = st.selectbox("Type of Breast Surgery", ["MASTECTOMY", "BREAST CONSERVING"])
+    cancer_type = st.selectbox(
+        "Cancer Type Detailed",
+        ["Invasive Ductal Carcinoma", "Invasive Lobular Carcinoma"]
+    )
+    cellularity = st.selectbox("Cellularity", ["High", "Moderate", "Low"])
+    chemo = st.selectbox("Chemotherapy", ["YES", "NO"])
+    er_status = st.selectbox("ER status measured by IHC", ["Positive", "Negative"])
+    pr_status = st.selectbox("PR Status", ["Positive", "Negative"])
 
-# -------- RIGHT --------
-
+# -------- RIGHT -------- #
 with col2:
-her2 = st.selectbox("HER2 Status", ["Positive", "Negative"])
-grade = st.selectbox("Neoplasm Histologic Grade", ["Grade 1", "Grade 2", "Grade 3"])
-hormone = st.selectbox("Hormone Therapy", ["YES", "NO"])
-nodes = st.number_input("Lymph nodes examined positive", 0, 50, 0)
-radio = st.selectbox("Radio Therapy", ["YES", "NO"])
-tumor_size = st.number_input("Tumor Size (mm)", 1, 200, 20)
-stage = st.selectbox("Tumor Stage", ["Stage I", "Stage II", "Stage III", "Stage IV"])
+    her2 = st.selectbox("HER2 Status", ["Positive", "Negative"])
+    grade = st.selectbox("Neoplasm Histologic Grade", ["Grade 1", "Grade 2", "Grade 3"])
+    hormone = st.selectbox("Hormone Therapy", ["YES", "NO"])
+    nodes = st.number_input("Lymph nodes examined positive", 0, 50, 0)
+    radio = st.selectbox("Radio Therapy", ["YES", "NO"])
+    tumor_size = st.number_input("Tumor Size (mm)", 1, 200, 20)
+    stage = st.selectbox("Tumor Stage", ["Stage I", "Stage II", "Stage III", "Stage IV"])
 
 st.markdown("---")
 
