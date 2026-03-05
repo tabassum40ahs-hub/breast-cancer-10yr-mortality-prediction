@@ -154,16 +154,25 @@ if st.button("🔍 Predict 10-Year Mortality Risk"):
 
     st.markdown(f"""
     <div style="
-        background-color:{risk_color};
-        padding:25px;
-        border-radius:10px;
-        text-align:center;
-        color:white;
-        font-size:24px;
-        font-weight:bold;">
-        {risk_text}<br>
-        Probability of 10-Year Mortality: {prob:.2%}
+    background-color:{risk_color};
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    color:white;
+    font-size:26px;
+    font-weight:bold;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    ">
+
+    Risk Level: {risk_text}
+
+    <br><br>
+
+    Estimated 10-Year Mortality Probability
+
+    <br>
+
+    {prob:.2%}
+
     </div>
     """, unsafe_allow_html=True)
-
-    st.caption("Disclaimer: This model is for research and educational purposes only.")
