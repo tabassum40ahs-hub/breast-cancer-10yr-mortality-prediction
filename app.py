@@ -56,47 +56,41 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------------- INFO ----------------
-
 with st.expander("📘 Understanding the Input Features"):
 
-```
-st.markdown("""
-```
-
-**Age at Diagnosis**
+    st.markdown("""
+**Age at Diagnosis**  
 Patient’s age when breast cancer was diagnosed.
 
-**Type of Breast Surgery**
+**Type of Breast Surgery**  
+- *Breast Conserving*: Only tumor and small surrounding tissue removed.  
+- *Mastectomy*: Entire breast removed.
 
-* *Breast Conserving*: Only tumor and small surrounding tissue removed.
-* *Mastectomy*: Entire breast removed.
-
-**Cancer Type Detailed**
+**Cancer Type Detailed**  
 Histological type of breast cancer (e.g., ductal or lobular).
 
-**Cellularity**
+**Cellularity**  
 How densely packed the tumor cells appear under a microscope.
 
-**ER / PR Status**
-Estrogen and Progesterone receptor status.
+**ER / PR Status**  
+Estrogen and Progesterone receptor status.  
 Positive means the tumor grows in response to hormones.
 
-**HER2 Status**
+**HER2 Status**  
 Protein affecting cancer growth. Positive HER2 cancers tend to grow faster.
 
-**Neoplasm Histologic Grade**
+**Neoplasm Histologic Grade**  
 How abnormal cancer cells look:
+- Grade 1 → Slow growing  
+- Grade 3 → Aggressive
 
-* Grade 1 → Slow growing
-* Grade 3 → Aggressive
-
-**Lymph Nodes Examined Positive**
+**Lymph Nodes Examined Positive**  
 Number of lymph nodes where cancer spread.
 
-**Tumor Size**
+**Tumor Size**  
 Size of tumor in millimeters.
 
-**Tumor Stage**
+**Tumor Stage**  
 Overall extent of cancer spread (Stage I = early, Stage IV = advanced).
 """)
 
